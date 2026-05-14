@@ -1,0 +1,13 @@
+pipeline{
+    agent any
+    
+    stages{
+        stage("Build"){ // staging and naming the stage
+
+            steps{
+                echo "========executing Build========"
+            }
+            
+        }
+    }
+}
